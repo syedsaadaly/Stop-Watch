@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.watch{
+    padding: 10px;
+    background-color: rgba(202, 197, 197, 0.3) ;
+    backdrop-filter: blur(10px);
+    border-radius: 10px 10px 20% 20% ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(5, 5, 5);
+    -webkit-text-stroke: 0.5px white;
+    border-bottom: 2px solid rgb(19, 18, 18);
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+#controls button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    /* border-radius: 25px; */
+    cursor: pointer;
+}
+#controls button:hover{
+    color: black;
+    transition: .3s;
+}
+#controls button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+#start-btn {
+    background-color: rgb(57, 231, 22);
+    color: white;
+    border-radius: 25px 25px 25px 50px;
+}
+
+#stop-btn {
+    background-color: rgb(219, 52, 41);
+    color: white;
+    border-radius: 25px ;
+    
+}
+
+#reset-btn {
+    background-color: gray;
+    color: white;
+    border-radius: 25px 25px 50px 25px;
+}
